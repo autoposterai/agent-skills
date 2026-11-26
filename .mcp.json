@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "autoposter": {
+      "type": "http",
+      "url": "https://agent.autoposter.ai/mcp"
+    }
+  }
+}

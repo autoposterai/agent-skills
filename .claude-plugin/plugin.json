@@ -1,0 +1,13 @@
+{
+  "name": "auto-poster-ai",
+  "description": "Draft, schedule and analyze social media posts across 10+ platforms with Auto Poster AI. Bundles the Auto Poster AI MCP server and five workflow skills.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Auto Poster AI",
+    "url": "https://autoposter.ai"
+  },
+  "homepage": "https://autoposter.ai",
+  "repository": "https://github.com/autoposterai/agent-skills",
+  "license": "MIT",
+  "keywords": ["social-media", "scheduling", "instagram", "tiktok", "linkedin", "x", "mcp"]
+}
