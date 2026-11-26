@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="Auto Poster AI" width="96" />
+  <img src="assets/logo.png" alt="Auto Poster AI" width="120" />
 </p>
 
 <h1 align="center">Auto Poster AI agent skills</h1>
