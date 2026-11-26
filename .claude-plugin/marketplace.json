@@ -11,7 +11,7 @@
     {
       "name": "auto-poster-ai",
       "source": "./",
-      "description": "Draft, schedule and analyze social media posts with Auto Poster AI. MCP server plus five workflow skills.",
+      "description": "Draft, schedule and analyze social media posts with Auto Poster AI. MCP server plus seven workflow skills.",
       "version": "1.0.0"
     }
   ]

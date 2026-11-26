@@ -16,6 +16,10 @@ This repo has two parts:
 | [`announce-release`](skills/announce-release/SKILL.md) | Turn git commits and changelogs into launch announcements |
 | [`social-analytics-report`](skills/social-analytics-report/SKILL.md) | Report on top posts, growth and what to post next |
 | [`manage-post-queue`](skills/manage-post-queue/SKILL.md) | List, edit, approve, cancel and debug posts |
+| [`manage-media-library`](skills/manage-media-library/SKILL.md) | Upload images and videos (including 5 GB files) and reuse library media |
+| [`check-accounts-and-rules`](skills/check-accounts-and-rules/SKILL.md) | List connected accounts, show the signed-in profile, check platform limits |
+
+Together the skills cover all 16 tools the MCP server exposes.
 
 ## Install
 
