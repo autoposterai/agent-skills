@@ -1,0 +1,25 @@
+{
+  "name": "autoposterai",
+  "description": "Auto Poster AI for AI agents: draft, schedule, publish and analyze social media posts.",
+  "owner": {
+    "name": "Auto Poster AI",
+    "url": "https://autoposter.ai"
+  },
+  "plugins": [
+    {
+      "name": "auto-poster-ai",
+      "description": "Auto Poster AI social media automation. Draft, schedule, publish and analyze posts across Instagram, TikTok, LinkedIn, X, Facebook, Threads, YouTube and more.",
+      "category": "productivity",
+      "source": { "type": "local", "path": "./" },
+      "homepage": "https://autoposter.ai/agents/grok",
+      "keywords": [
+        "auto poster ai",
+        "social media scheduler",
+        "social media agentic scheduler",
+        "schedule social media posts",
+        "social media automation"
+      ],
+      "domains": ["autoposter.ai", "agent.autoposter.ai"]
+    }
+  ]
+}

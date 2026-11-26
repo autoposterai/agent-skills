@@ -1,0 +1,33 @@
+{
+  "name": "autoposterai",
+  "owner": {
+    "name": "Auto Poster AI",
+    "url": "https://autoposter.ai"
+  },
+  "metadata": {
+    "description": "Auto Poster AI for AI agents: draft, schedule, publish and analyze social media posts."
+  },
+  "plugins": [
+    {
+      "name": "auto-poster-ai",
+      "source": "./",
+      "version": "1.1.0",
+      "description": "Draft, schedule, publish and analyze social media posts from Cursor. Hosted MCP server plus seven workflow skills.",
+      "homepage": "https://autoposter.ai/agents/cursor",
+      "repository": "https://github.com/autoposterai/agent-skills",
+      "license": "MIT",
+      "logo": "assets/logo.png",
+      "category": "productivity",
+      "tags": ["social-media", "scheduling", "marketing", "automation", "ai-agent", "mcp"],
+      "skills": [
+        "./skills/schedule-social-posts",
+        "./skills/repurpose-content",
+        "./skills/announce-release",
+        "./skills/social-analytics-report",
+        "./skills/manage-post-queue",
+        "./skills/manage-media-library",
+        "./skills/check-accounts-and-rules"
+      ]
+    }
+  ]
+}

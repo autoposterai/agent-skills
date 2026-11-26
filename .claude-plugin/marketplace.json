@@ -5,14 +5,19 @@
     "url": "https://autoposter.ai"
   },
   "metadata": {
-    "description": "Auto Poster AI plugins for scheduling and analyzing social media posts from your coding agent."
+    "description": "Auto Poster AI for AI agents: draft, schedule, publish and analyze social media posts across Instagram, TikTok, LinkedIn, X, Facebook, Threads, YouTube and more."
   },
   "plugins": [
     {
       "name": "auto-poster-ai",
       "source": "./",
-      "description": "Draft, schedule and analyze social media posts with Auto Poster AI. MCP server plus seven workflow skills.",
-      "version": "1.0.0"
+      "version": "1.1.0",
+      "description": "Draft, schedule, publish and analyze social media posts from your AI agent. Hosted MCP server plus seven workflow skills for Instagram, TikTok, LinkedIn, X, Facebook, Threads, YouTube, Pinterest, Bluesky, Mastodon, Telegram, Discord, WordPress and Google Business Profile.",
+      "homepage": "https://autoposter.ai/agents",
+      "repository": "https://github.com/autoposterai/agent-skills",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": ["social-media", "scheduling", "marketing", "automation", "ai-agent", "mcp"]
     }
   ]
 }

@@ -1,0 +1,36 @@
+{
+  "name": "auto-poster-ai",
+  "version": "1.1.0",
+  "description": "Auto Poster AI social media automation. Draft, schedule, publish and analyze posts across Instagram, TikTok, LinkedIn, X, Facebook, Threads, YouTube, Pinterest, Bluesky, Mastodon, Telegram, Discord, WordPress and Google Business Profile.",
+  "author": {
+    "name": "Auto Poster AI",
+    "url": "https://autoposter.ai"
+  },
+  "homepage": "https://autoposter.ai/agents/grok",
+  "repository": "https://github.com/autoposterai/agent-skills",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "auto poster ai",
+    "social media scheduler",
+    "social media agentic scheduler",
+    "schedule social media posts",
+    "social media automation"
+  ],
+  "skills": [
+    "./skills/schedule-social-posts",
+    "./skills/repurpose-content",
+    "./skills/announce-release",
+    "./skills/social-analytics-report",
+    "./skills/manage-post-queue",
+    "./skills/manage-media-library",
+    "./skills/check-accounts-and-rules"
+  ],
+  "mcpServers": {
+    "autoposter": {
+      "type": "http",
+      "url": "https://agent.autoposter.ai/mcp",
+      "note": "Official Auto Poster AI MCP server (hosted, streamable HTTP). Sign in to Auto Poster AI when prompted on first connection. Lets the agent draft, schedule, publish and analyze your social media posts."
+    }
+  }
+}

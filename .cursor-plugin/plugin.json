@@ -1,0 +1,37 @@
+{
+  "name": "auto-poster-ai",
+  "version": "1.1.0",
+  "description": "Draft, schedule, publish and analyze social media posts from Cursor with Auto Poster AI. Works with Instagram, TikTok, LinkedIn, X, Facebook, Threads, YouTube, Pinterest, Bluesky, Mastodon, Telegram, Discord, WordPress and Google Business Profile. Bundles the hosted Auto Poster AI MCP server and seven workflow skills.",
+  "author": {
+    "name": "Auto Poster AI",
+    "url": "https://autoposter.ai"
+  },
+  "homepage": "https://autoposter.ai/agents/cursor",
+  "repository": "https://github.com/autoposterai/agent-skills",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "auto-poster-ai",
+    "social-media",
+    "scheduling",
+    "automation",
+    "ai-agent",
+    "mcp",
+    "instagram",
+    "tiktok",
+    "linkedin",
+    "x",
+    "threads",
+    "bluesky",
+    "youtube"
+  ],
+  "skills": [
+    "./skills/schedule-social-posts",
+    "./skills/repurpose-content",
+    "./skills/announce-release",
+    "./skills/social-analytics-report",
+    "./skills/manage-post-queue",
+    "./skills/manage-media-library",
+    "./skills/check-accounts-and-rules"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "auto-poster-ai",
+  "version": "1.1.0",
+  "description": "Auto Poster AI social media automation for Gemini CLI: draft, schedule, publish and analyze posts across Instagram, TikTok, LinkedIn, X, Facebook, Threads, YouTube, Pinterest, Bluesky, Mastodon, Telegram, Discord, WordPress and Google Business Profile. Bundles seven workflow skills and the hosted Auto Poster AI MCP server.",
+  "mcpServers": {
+    "autoposter": {
+      "httpUrl": "https://agent.autoposter.ai/mcp",
+      "description": "Official Auto Poster AI MCP server (hosted, streamable HTTP). Sign in to Auto Poster AI when prompted on first connection."
+    }
+  }
+}
