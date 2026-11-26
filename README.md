@@ -139,6 +139,18 @@ claude mcp add --transport http autoposter https://agent.autoposter.ai/mcp --hea
 - If your API key cannot publish directly, posts go to `pending_approval` and your approvers are notified.
 - Edits overwrite the previous text with no undo, so the skills show old and new text first.
 
+## Network and permissions
+
+What this plugin does on your machine and which services it contacts:
+
+- **One service endpoint:** `https://agent.autoposter.ai/mcp`, the hosted Auto Poster AI MCP server (streamable HTTP). Your agent sends tool calls there.
+- **Media and links you provide:** the `repurpose-content` skill asks your agent to read a URL you give it, and media uploads accept public URLs you give it. Nothing is fetched unless you supply the URL.
+- **Credentials:** sign in with OAuth when your agent prompts you, or pass an Auto Poster AI API key in an `Authorization: Bearer` header. The plugin stores no credentials and never reads environment variables, `.env` files or SSH keys.
+- **No code execution:** no hooks, no scripts, no `postinstall`, no downloaded binaries. The repo contains only `SKILL.md` instruction files, JSON manifests, one image and this README.
+- **Local access:** the `announce-release` skill asks your agent to run read-only `git describe` and `git log` in your current repository. No other skill touches your filesystem.
+- **Scope:** the MCP server can read and change only the Auto Poster AI workspace you sign in to: connected accounts, posts, media and analytics. The skills ask for confirmation before publishing, editing or deleting.
+- **Privacy policy:** https://autoposter.ai/privacy
+
 ## Links
 
 [Website](https://autoposter.ai) · [Agents](https://autoposter.ai/agents) · [MCP server](https://autoposter.ai/mcp) · [API](https://autoposter.ai/api) · [Pricing](https://autoposter.ai/pricing) · [Privacy](https://autoposter.ai/privacy)

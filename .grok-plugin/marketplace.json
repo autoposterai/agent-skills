@@ -14,10 +14,9 @@
       "homepage": "https://autoposter.ai/agents/grok",
       "keywords": [
         "auto poster ai",
-        "social media scheduler",
-        "social media agentic scheduler",
-        "schedule social media posts",
-        "social media automation"
+        "autoposter",
+        "auto poster ai mcp",
+        "auto poster ai scheduler"
       ],
       "domains": ["autoposter.ai", "agent.autoposter.ai"]
     }
