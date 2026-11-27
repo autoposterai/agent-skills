@@ -153,7 +153,7 @@ What this plugin does on your machine and which services it contacts:
 
 ## Links
 
-[Website](https://autoposter.ai) · [Agents](https://autoposter.ai/agents) · [MCP server](https://autoposter.ai/mcp) · [API](https://autoposter.ai/api) · [Pricing](https://autoposter.ai/pricing) · [Privacy](https://autoposter.ai/privacy)
+[Website](https://autoposter.ai) · [Agents](https://autoposter.ai/agents) · [MCP server](https://autoposter.ai/mcp) · [API](https://autoposter.ai/api) · [Pricing](https://autoposter.ai/pricing) · [Privacy](https://autoposter.ai/privacy) · [npm package](https://www.npmjs.com/package/@autoposter/mcp) · [MCP launcher source](https://github.com/autoposterai/mcp)
 
 ## License
 
